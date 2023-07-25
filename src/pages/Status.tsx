@@ -9,9 +9,9 @@ import { PaperPlaneRight } from "phosphor-react";
 export function Status() {
   const [newAnswer, setNewAnswer] = useState("");
   const [answers, setAnswers] = useState([
-    "Concordo",
-    "Faz sentido",
-    "Parabéns pelo progresso",
+    "This my first answer!",
+    "Good luck!",
+    "Congratulations!",
   ]);
 
   function createNewAnswer(event: FormEvent) {
@@ -34,7 +34,7 @@ export function Status() {
 
       <Tweet
         content={
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia repellat cum impedit deleniti placeat numquam doloremque minima, officiis corporis porro enim nesciunt, tempora itaque exercitationem harum suscipit recusandae. At, minus."
+          ""
         }
       />
 
